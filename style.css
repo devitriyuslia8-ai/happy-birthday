@@ -1,0 +1,53 @@
+body{
+background:#FFF7F3;
+font-family:Poppins;
+margin:0;
+text-align:center;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#FFD6E8,#FFF7F3);
+}
+
+h1{
+font-size:70px;
+font-family:'Great Vibes';
+color:#ff4f87;
+}
+
+button{
+padding:15px 40px;
+border:none;
+background:#ff4f87;
+color:white;
+border-radius:50px;
+font-size:20px;
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+transform:scale(1.1);
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+padding:40px;
+}
+
+.gallery img{
+width:100%;
+border-radius:20px;
+transition:.5s;
+}
+
+.gallery img:hover{
+transform:scale(1.08);
+}
